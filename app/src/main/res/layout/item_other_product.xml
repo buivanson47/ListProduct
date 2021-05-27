@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/item_vertical_margin">
+
+    <ImageView
+        android:id="@+id/img_other_product"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/image_demo" />
+
+    <TextView
+        android:id="@+id/name_other_product"
+        style="@style/NameOtherProduct"
+        android:layout_below="@+id/img_other_product"
+        android:text="@string/item_name_demo" />
+
+    <TextView
+        android:id="@+id/price_other_product"
+        style="@style/PriceCurrentItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_other_product"
+        android:text="@string/price_demo" />
+
+    <TextView
+        android:id="@+id/price_sale_othProduct"
+        style="@style/PriceSaleItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price_other_product"
+        android:text="@string/price_sale_demo" />
+
+    <TextView
+        android:id="@+id/tag_price_othProduct"
+        style="@style/TagSaleItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price_other_product"
+        android:layout_toRightOf="@id/price_sale_othProduct"
+        android:text="@string/tag_sale_demo" />
+
+
+</RelativeLayout>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="ImageItem">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginEnd">@dimen/item_vertical_margin</item>
+        <item name="android:layout_marginRight">@dimen/item_vertical_margin</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="NameItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineHeight" tools:targetApi="p">@dimen/item_line_height_name</item>
+        <item name="android:textColor">@color/darkGrey</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="PriceCurrentItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/item_horizontal_margin_small</item>
+        <item name="android:textColor">@color/tomato</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="PriceSaleItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/coolGrey</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="TagSaleItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/item_horizontal_margin_small</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/background_sale</item>
+    </style>
+
+    <style name="ToolBarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="SearchViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/item_vertical_margin_small</item>
+        <item name="android:layout_marginRight">@dimen/item_horizontal_margin_medium</item>
+        <item name="android:layout_marginBottom">@dimen/item_vertical_margin_small</item>
+        <item name="android:background">@drawable/background_search</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_marginEnd">@dimen/item_horizontal_margin_medium</item>
+    </style>
+
+    <style name="horizontal_small">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/paleGrey</item>
+    </style>
+
+    <style name="NameTitleStyle">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:lines">1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/darkGrey</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="PriceTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/tomato</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="NameOtherProduct" parent="NameItem">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:lines">2</item>
+    </style>
+
+    <style name="TitleParameter">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/coolGrey</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="content_parameter">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:gravity">end</item>
+        <item name="android:textColor">@color/darkGrey</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TitleCodeProduct">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/coolGrey</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="CodeProduct">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/deepSkyBlue</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="OutOfStock">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/background_out_stock</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/coolGrey</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="PriceProductDetail">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/tomato</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="PriceSaleDetail">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/coolGrey</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="HorizontalMedium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">5dp</item>
+        <item name="android:background">@color/paleGrey</item>
+    </style>
+
+    <style name="TabLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/item_vertical_margin</item>
+        <item name="android:layout_marginTop">@dimen/item_vertical_margin</item>
+        <item name="android:layout_marginRight">@dimen/item_vertical_margin</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+    </style>
+
+    <style name="TitleOtherProduct">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/item_vertical_margin</item>
+        <item name="android:textColor">@color/coolGrey</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ViewEnd">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">78dp</item>
+        <item name="android:background">@color/paleGrey</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">@drawable/background_button</item>
+    </style>
+
+    <style name="NumberShopping">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/item_horizontal_margin_medium</item>
+        <item name="android:layout_marginRight">@dimen/item_horizontal_margin_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="PriceShopping">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:gravity">end</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

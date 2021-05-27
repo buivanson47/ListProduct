@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Product Discovery</string>
+    <string name="item_name_demo">Thẻ nhớ SDHC Sandisk 16GB Extre me Pro (class 10) Ultra</string>
+    <string name="price_demo">8.790.000 đ</string>
+    <string name="price_sale_demo">10.970.000</string>
+    <string name="tag_sale_demo">-20%</string>
+    <string name="query_hint">Nhập tên, mã sản phẩm</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_description">Mô tả sản phẩm</string>
+    <string name="title_Parameter">Thông số kĩ thuật</string>
+    <string name="title_compare">So sánh giá</string>
+    <string name="title_brand">Thương hiệu</string>
+    <string name="name_brand">Cooler Master</string>
+    <string name="title_guarantee">Bảo hành</string>
+    <string name="time_guarantee">36 tháng</string>
+    <string name="title_wattage">Công suất</string>
+    <string name="wattage">140W</string>
+    <string name="title_memory">Bộ nhớ đệm</string>
+    <string name="capacity_memory">8.25MB</string>
+    <string name="title_code">Mã SP:</string>
+    <string name="code_demo">9187693543</string>
+    <string name="out_of_stock">Tạm Hết Hàng</string>
+    <string name="other_product">Sản phẩm cùng loại</string>
+    <string name="number_shopping">2</string>
+</resources>

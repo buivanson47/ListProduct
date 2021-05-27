@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_vertical_margin">12dp</dimen>
+    <dimen name="item_line_height_name">19dp</dimen>
+    <dimen name="item_horizontal_margin_small">4dp</dimen>
+    <dimen name="item_vertical_margin_small">8dp</dimen>
+    <dimen name="item_horizontal_margin_s_medium">8dp</dimen>
+    <dimen name="item_horizontal_margin_medium">16dp</dimen>
+    <dimen name="item_horizontal_margin_s_small">2dp</dimen>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".fragment.ParameterFragment">
+
+    <RelativeLayout
+        android:id="@+id/brand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/paleGrey"
+        android:padding="@dimen/item_vertical_margin">
+
+        <TextView
+            android:id="@+id/title_brand"
+            style="@style/TitleParameter"
+            android:text="@string/title_brand" />
+
+        <TextView
+            android:id="@+id/content_brand"
+            style="@style/content_parameter"
+            android:text="@string/name_brand" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/guarantee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/title_guarantee"
+            style="@style/TitleParameter"
+            android:text="@string/title_guarantee" />
+
+        <TextView
+            android:id="@+id/content_guarantee"
+            style="@style/content_parameter"
+            android:text="@string/time_guarantee" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/wattage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/paleGrey"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/title_wattage"
+            style="@style/TitleParameter"
+            android:text="@string/title_wattage" />
+
+        <TextView
+            android:id="@+id/content_wattage"
+            style="@style/content_parameter"
+            android:text="@string/wattage" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/memory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/title_memory"
+            style="@style/TitleParameter"
+            android:text="@string/title_memory" />
+
+        <TextView
+            android:id="@+id/content_memory"
+            style="@style/content_parameter"
+            android:text="@string/capacity_memory" />
+
+    </RelativeLayout>
+
+</LinearLayout>

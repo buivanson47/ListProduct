@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/item_vertical_margin">
+
+    <ImageView
+        android:id="@+id/image_product"
+        style="@style/ImageItem"
+        android:src="@drawable/image_demo" />
+
+    <LinearLayout
+        android:id="@+id/layout_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name_product"
+            style="@style/NameItem"
+            android:text="@string/item_name_demo" />
+
+        <TextView
+            android:id="@+id/price_product"
+            style="@style/PriceCurrentItem"
+            android:text="@string/price_demo" />
+
+        <LinearLayout
+            android:id="@+id/layout_sale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/item_horizontal_margin_s_small"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/price_strikeThr"
+                style="@style/PriceSaleItem"
+                android:text="@string/price_sale_demo" />
+
+            <TextView
+                android:id="@+id/tag_sale"
+                style="@style/TagSaleItem"
+                android:text="@string/tag_sale_demo" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
